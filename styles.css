@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEhqzeTOTJm2J-wrSe9kAj3DlAphY5RzFw3W4xf25OPT1AEktfD1Z70sYBclrMDeuD6jAeZzJPByXgH272iG3hxS7AGppznCwS1yzioR77m4J03rVdFLmL3TtLjVmUfaCk-p1D3Jdkj6fp-9U64Tnqg1EMKT9OXpclfVjKrYeqT-OJWdnq9JBh_8ZZKWpsM=s1600-rw);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.paimon{
+    display: grid;
+    place-items: center;
+}
+
+.title{
+    width: 40%;
+    background-color: white;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(225, 78, 255);
+}
+
+.title2{
+    width: 35%;
+    background-color: white;
+    border: 2px solid #9d0416;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px;
+    color: rgb(78, 143, 255);
+}
+
+header{
+    width: 99%;
+    text-align: center;
+}
+header img{
+    width: 60%;
+    text-align: center;
+    margin: 10px;
+    border-radius: 30px;
+}
+.lista{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 25px;
+    color: rgb(161, 49, 236);
+    border-radius: 30px;
+    background-image: url(img/descarga\ \(49\).jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.caracteristicas{
+    margin: 10px;
+    padding: 20px;
+}
+.caracter{
+    color: rgb(255, 0, 208);
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.titulo{
+    margin: 10px;
+    text-align: center;
+    color: rgb(2, 255, 242);
+    font-size: 21px;
+}
+
+.arreglar{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.parrafo{
+    width: 65%;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    line-height: 30px;
+    margin: 20px;
+    text-align: justify;
+    font-size: 22px;
+    background-image: url(https://wallpapercave.com/wp/wp4979757.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 100px rgba(0, 0, 0, .7);
+}
+.Valeria{
+    width: 70%;
+    margin: 20px;
+    padding: 20px;
+}
+.imagen{
+    text-align: center;
+}
+.imagen img{
+    width: 300px;
+    margin: 20px;
+    border-radius: 10%;
+    border: 4px solid whitesmoke;
+}
+.retratos{
+    text-align: center;
+}
+.retratos img{
+    margin: 10px;
+    width: 325px;
+    height: 100%;
+    border-radius: 30px;
+}
+.more a{
+    display: block;
+    width: 60%;
+    background-color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    box-shadow: .5rem .5rem 1rem #ccc, -.5rem -.5rem 1rem #ccc;
+}
+
+#texto{
+    background: rgb(51, 51, 51);
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0 0 0;
+}
+#texto h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+#texto p{
+    text-align: justify;
+    font-size: 20px;
+}
+#texto .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+}
+.text{
+    margin: 20px;
+}
+.text h4{
+    text-align: center;
+    font-size: 20px;
+}
+.text img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+}
+
+/*-- Footerr --*/
+footer {
+    padding-bottom: 0.1px;
+    background: rgb(39, 39, 39);
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.contact-us {
+    padding-left: 50px;
+    width: 40%;
+    color: #fff;
+}
+.brand {
+    font-weight: 500;
+    font-size: 40px;
+}
+.brand p {
+    font-weight: 500;
+}
+.social-media {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.social-media-icon:hover {
+    background: #fff;
+    color: #764ba2;
+}
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}
+.line {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+.center {
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+   
+    .footer-content {
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .social-media {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    .social-media-icon {
+        margin-left: 0;
+    }
+    .social-media i {
+        margin-left: 0;
+    }
+    .contact-us {
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-image: url(img/paisaje-digital-en-atardecer-5846.jpg);
+    }
+
+    .title{
+        width: 90%;
+        font-size: 35px;
+    }
+    .title2{
+        width: 90%;
+        font-size: 35px;
+        border: 2px solid #000000;
+    }
+
+    header img{
+        width: 96%;
+    }
+
+    .parrafo{
+        width: 90%;
+        background-image: url(img/Estrellas.jpg);
+    }
+
+    .retratos img{
+        width: 300px;
+    }
+
+    .agregar-imagen{
+        object-fit: cover;
+        width: 90%;
+        transform: scale(0);
+        border-radius: 10px;
+        transition: transform .3s .2s;
+    }
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.img-galeria{
+    object-fit: cover;
+    width: 30%;
+    height: 100%;
+    display: block;
+    margin-bottom: 30px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+.imagen-light{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.534);
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+
+.agregar-imagen{
+    object-fit: cover;
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.show{
+    transform: translate(0);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
