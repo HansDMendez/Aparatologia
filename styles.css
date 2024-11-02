@@ -53,9 +53,9 @@ header img{
     padding: 10px;
     text-align: justify;
     font-size: 25px;
-    color: rgb(161, 49, 236);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
-    background-image: url(img/descarga\ \(49\).jpg);
+    background-image: url(img/descarga.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -66,7 +66,7 @@ header img{
     padding: 20px;
 }
 .caracter{
-    color: rgb(255, 0, 208);
+    color: rgb(180, 180, 180);
     font-size: 30px;
     text-align: center;
     margin: 0px 0px 20px 0px;
@@ -92,7 +92,7 @@ header img{
     margin: 20px;
     text-align: justify;
     font-size: 22px;
-    background-image: url(https://wallpapercave.com/wp/wp4979757.jpg);
+    background-image: url(img/imagenbonita.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
