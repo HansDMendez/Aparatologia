@@ -294,6 +294,9 @@ footer {
         border-radius: 10px;
         transition: transform .3s .2s;
     }
+    .caracter{
+        font-size: 25px;
+    }
 }
 
 .contenedor-galeria{
